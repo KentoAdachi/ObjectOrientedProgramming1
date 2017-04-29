@@ -1,4 +1,2 @@
-javac test.java
--> test.classが生成される
-java test
-->test.classの実行,この時java test.classとしない
+２年オブジェクト指向プログラミングIの作業フォルダです
+宿題で詰まったら参考にしてみてください
