@@ -1,7 +1,9 @@
 /**
-長方形
-@version 1.0
-@author 足立賢人
+課題番号:問題3<br>
+作成年月日:2017/05/21<br>
+長方形の定義
+@version 1.0(2017/05/21)
+@author BP16001 足立賢人
 */
 class Rectangle{
   int width;
