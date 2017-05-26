@@ -5,7 +5,7 @@
 @author BP16001 足立賢人
 @version 1.0(2017/05/21)
 
-test
+
 */
 class Main{
   /**
