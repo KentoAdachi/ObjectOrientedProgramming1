@@ -1,4 +1,5 @@
 class Main2{
+  //test
   public static void main(String[] args) {
 
     Rectangle rectangles[] = new Rectangle[5];
