@@ -1,0 +1,2 @@
+Input LineSegment : (5.0,10.0)->(10.0,20.0)
+LineSegment after linearTransfer : (70.0,0.0)->(140.0,0.0)
