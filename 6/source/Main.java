@@ -10,7 +10,7 @@ class Main{
   public static void main(String[] args) {
     Point A = new Point(Double.parseDouble(args[0]),Double.parseDouble(args[1]));
     Point B = new Point(Double.parseDouble(args[2]),Double.parseDouble(args[3]));
-    LineSegment line = new LineSegment(new Point(5,10),new Point(10,20));
+    LineSegment line = new LineSegment(A,B);
     System.out.println("Input LineSegment : "+line);
     System.out.println("LineSegment after linearTransfer : "+line.linearTransfer());
   }
