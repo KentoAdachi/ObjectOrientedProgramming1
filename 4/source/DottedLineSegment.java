@@ -22,15 +22,18 @@ class DottedLineSegment extends LineSegment{
     this.interval = interval;
   }
 
-  void makeForm(){
-    System.out.print(this.a);
+  String makeForm(){//stringに直す
+    String ret = new String();
+
     for (int i = 0;i < this.length();i++ ) {
-      System.out.print("-");
+      ret += "-";
       for (int j = 0;j < this.interval;j++ ) {
-        System.out.print(" ");
+        ret += " ";
       }
     }
-    System.out.println(b);
+
+
+    return ret;
   }
 
   @Override
@@ -42,4 +45,8 @@ class DottedLineSegment extends LineSegment{
     return ret;
   }
 
+  @Override
+  public String toString(){
+    return  a + this.makeForm() + b;
+  }
 }

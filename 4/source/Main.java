@@ -9,10 +9,11 @@
 class Main{
   public static void main(String[] args) {
     DottedLineSegment a = new DottedLineSegment(10,10,20,20,1);
-    System.out.print("Input line segment : ");
-    a.makeForm();
-
-    System.out.print("LineSegment after transfer : ");
-    a.linearTransfer().makeForm();
+    // System.out.print("Input line segment : ");
+    // a.makeForm();
+    //
+    // System.out.print("LineSegment after transfer : ");
+    // a.linearTransfer().makeForm();
+    System.out.println(a);
   }
 }
