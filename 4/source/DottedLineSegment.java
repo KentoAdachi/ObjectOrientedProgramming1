@@ -10,7 +10,7 @@ class DottedLineSegment extends LineSegment{
   double interval;
   DottedLineSegment(double x1, double y1, double x2, double y2){
     super(x1,y1,x2,y2);
-    interval = 0;
+    this.interval = 0;
   }
 
   DottedLineSegment(double x1, double y1, double x2, double y2, double interval){
@@ -47,6 +47,6 @@ class DottedLineSegment extends LineSegment{
 
   @Override
   public String toString(){
-    return  a + this.makeForm() + b;
+    return  this.a + this.makeForm() + this.b;
   }
 }
