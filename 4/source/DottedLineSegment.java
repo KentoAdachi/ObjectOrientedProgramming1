@@ -33,5 +33,13 @@ class DottedLineSegment extends LineSegment{
     System.out.println(b);
   }
 
+  @Override
+  DottedLineSegment linearTransfer(){
+    DottedLineSegment ret = new DottedLineSegment(0,0,0,0);
+    ret.a = this.a.linearTransfer();
+    ret.b = this.b.linearTransfer();
+    ret.interval = this.interval;
+    return ret;
+  }
 
 }
