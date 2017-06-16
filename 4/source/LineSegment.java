@@ -24,6 +24,14 @@ class LineSegment{
     this.b = new Point(x2,y2);
   }
 
+  double length(){
+    double ret;
+    ret = (b.x-a.x)*(b.x-a.x) + (b.y-a.y)*(b.y-a.y);
+    ret = Math.sqrt(ret);
+
+    return ret;
+  }
+
   LineSegment linearTransfer(){
     LineSegment ret = new LineSegment(new Point(0,0),new Point(0,0));
     ret.a = this.a.linearTransfer();

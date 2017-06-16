@@ -23,6 +23,15 @@ class DottedLineSegment extends LineSegment{
   }
 
   void makeForm(){
-
+    System.out.print(this.a);
+    for (int i = 0;i < this.length();i++ ) {
+      System.out.print("-");
+      for (int j = 0;j < this.interval;j++ ) {
+        System.out.print(" ");
+      }
+    }
+    System.out.println(b);
   }
+
+
 }
