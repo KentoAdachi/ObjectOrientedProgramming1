@@ -12,7 +12,13 @@ class Main{
     // System.out.println(a);
     // System.out.println(a.linearTransfer());
     Input in = new Input();
-    double n = in.inputDouble("実数を入力してください:");
-    System.out.println("入力された実数 " + n + "です。");
+    double x1 = in.inputDouble("input x1 : ");
+    double y1 = in.inputDouble("input y1 : ");
+    double x2 = in.inputDouble("input x2 : ");
+    double y2 = in.inputDouble("input y2 : ");
+    double interval = in.inputDouble("input interval : ");
+    DottedLineSegment a = new DottedLineSegment(x1,y1,x2,y2,interval);
+    System.out.println(a);
+    System.out.println(a.linearTransfer());
   }
 }

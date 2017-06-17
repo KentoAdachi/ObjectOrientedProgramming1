@@ -23,7 +23,8 @@ public class Input{
   * @param String prompt :入力を促すメッセージ
   * @exception Exception : 入力値が実数として解釈できない場合の例外を処理する
   */
-  public double inputDouble(String prompt){ this.setPrompt(prompt);
+  public double inputDouble(String prompt){
+    this.setPrompt(prompt);
     System.out.println(this.prompt);
     try{
       String value = this.input();
@@ -43,7 +44,7 @@ public class Input{
   */
   public String inputString(String prompt){
     this.setPrompt(prompt);
-    System.out.println(this.prompt); 
+    System.out.println(this.prompt);
     try{
       String n = this.input(); return n;
     } catch (Exception s){
