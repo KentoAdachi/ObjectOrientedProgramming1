@@ -8,9 +8,6 @@
 */
 class Main{
   public static void main(String[] args) {
-    // DottedLineSegment a = new DottedLineSegment(10,10,20,20,1);
-    // System.out.println(a);
-    // System.out.println(a.linearTransfer());
     Input in = new Input();
     double x1 = in.inputDouble("input x1 : ");
     double y1 = in.inputDouble("input y1 : ");
