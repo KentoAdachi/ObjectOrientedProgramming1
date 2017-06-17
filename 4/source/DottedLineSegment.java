@@ -31,8 +31,7 @@ class DottedLineSegment extends LineSegment{
         ret += " ";
       }
     }
-
-
+    
     return ret;
   }
 
