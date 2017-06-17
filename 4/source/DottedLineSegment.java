@@ -22,7 +22,7 @@ class DottedLineSegment extends LineSegment{
     this.interval = interval;
   }
 
-  String makeForm(){//stringに直す
+  String makeForm(){
     String ret = new String();
 
     for (int i = 0;i < this.length();i++ ) {
@@ -31,7 +31,7 @@ class DottedLineSegment extends LineSegment{
         ret += " ";
       }
     }
-    
+
     return ret;
   }
 
