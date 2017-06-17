@@ -18,7 +18,9 @@ class Main{
     double y2 = in.inputDouble("input y2 : ");
     double interval = in.inputDouble("input interval : ");
     DottedLineSegment a = new DottedLineSegment(x1,y1,x2,y2,interval);
+    System.out.print("Input LineSegment : ");
     System.out.println(a);
+    System.out.print("LineSegment after linearTransfer : ");
     System.out.println(a.linearTransfer());
   }
 }

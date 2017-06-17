@@ -1,0 +1,13 @@
+[MyBookAir:4/build/class] kent% java Main
+input x1 :
+10
+input y1 :
+10
+input x2 :
+20
+input y2 :
+20
+input interval :
+1
+Input LineSegment : (10.0,10.0)- - - - - - - - - - - - - - - (20.0,20.0)
+LineSegment after linearTransfer : (100.0,-10.0)- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - (200.0,-20.0)
