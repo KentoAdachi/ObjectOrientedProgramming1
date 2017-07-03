@@ -26,7 +26,7 @@ class LineSegment{
 
   double length(){
     double ret;
-    ret = (b.x-a.x)*(b.x-a.x) + (b.y-a.y)*(b.y-a.y);
+    ret = (b.getx()-a.getx())*(b.getx()-a.getx()) + (b.gety()-a.gety())*(b.gety()-a.gety());
     ret = Math.sqrt(ret);
 
     return ret;
