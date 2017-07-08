@@ -4,12 +4,12 @@ class Stack{
 
     }
 
-    void push(){
-
+    void push(Object data){
+        
     }
     Cell pop(){
-        Cell c = new Cell();
 
-        return c;
+
+        return head;
     }
 }
