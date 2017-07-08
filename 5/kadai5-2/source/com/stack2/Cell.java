@@ -1,4 +1,4 @@
-package stack2;
+package com.stack2;
 
 class Cell{
     private Object element;

@@ -1,4 +1,4 @@
-package stack2;
+package com.stack2;
 public class Stack{
     Cell head;
     Stack(){
