@@ -6,17 +6,17 @@ class Cell{
     Cell(Object element){
         this.element = element;
     }
-    public Object getElement(){
+    Object getElement(){
         return element;
 
     }
-    public Cell getNext(){
+    Cell getNext(){
         return next;
     }
-    public void setElement(Object element){
+    void setElement(Object element){
         this.element = element;
     }
-    public void setNext(Cell next){
+    void setNext(Cell next){
         this.next = next;
     }
     public String toString(){

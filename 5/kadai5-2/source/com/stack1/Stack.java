@@ -8,14 +8,16 @@ package com.stack1;
         index = 0;
     }
 
-    protected void push(int data){
+    void push(int data){
         element[index] = data;
         System.out.println("push : "+data);
         index ++;
     }
 
-    protected int pop(){
+    int pop(){
         index --;
         return element[index];
     }
+
+
 }

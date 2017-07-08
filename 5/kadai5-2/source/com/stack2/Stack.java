@@ -1,6 +1,9 @@
 package com.stack2;
-public class Stack{
-    Cell head;
+class Stack{
+    private Cell head;
+    Cell getHead(){
+        return head;
+    }
     void push(String data){
         Cell p = new Cell(data);
         p.setNext(head);
