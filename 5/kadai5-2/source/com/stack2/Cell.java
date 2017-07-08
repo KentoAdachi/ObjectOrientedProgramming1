@@ -1,3 +1,5 @@
+package stack2;
+
 class Cell{
     private Object element;
     private Cell next;
