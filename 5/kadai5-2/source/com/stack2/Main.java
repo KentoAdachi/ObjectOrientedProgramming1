@@ -1,3 +1,14 @@
+/*
+ オブジェクト指向プログラミング1
+ 課題番号 : 5
+ 問題番号 : 2
+ 学籍番号 : BP16001 
+ 氏名 : 足立賢人
+ 作成日 : 2017/07/09
+ 
+ Cellクラスを使ったStackの作成
+ */
+
 package com.stack2;
 class Main{
     public static void main(String[] args) {
