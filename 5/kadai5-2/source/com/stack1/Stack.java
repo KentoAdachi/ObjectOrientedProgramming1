@@ -1,19 +1,19 @@
 package com.stack1;
 
-public class Stack{
-    int element[] = new int[10];
-    int index;
+ class Stack{
+    private int element[] = new int[10];
+    private int index;
 
     Stack(){
         index = 0;
     }
 
-    void push(int data){
+    protected void push(int data){
         element[index] = data;
         index ++;
     }
 
-    int pop(){
+    protected int pop(){
         index --;
         return element[index];
     }
