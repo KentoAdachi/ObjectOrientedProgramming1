@@ -1,16 +1,15 @@
 package com.stack2;
 public class Stack{
     Cell head;
-    Stack(){
-
+    void push(String data){
+        Cell p = new Cell(data);
+        p.setNext(head);
+        head = p;
+        System.out.println("push : "+ data);
     }
-
-    void push(Object data){
-
-    }
-    Cell pop(){
-
-
-        return head;
+    Object pop(){
+        Cell ret = head;
+        head = head.getNext();
+        return ret.getElement();
     }
 }
