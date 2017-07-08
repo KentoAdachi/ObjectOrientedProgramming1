@@ -10,6 +10,7 @@ package com.stack1;
 
     protected void push(int data){
         element[index] = data;
+        System.out.println("push : "+data);
         index ++;
     }
 
